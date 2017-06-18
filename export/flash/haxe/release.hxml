@@ -20,10 +20,8 @@
 -D HXCPP_QUIET
 -D openfl-next
 -D tools=2.9.1
--D FLX_NO_DEBUG
 -D flash-use-stage
 -D no-compilation
--D NAPE_RELEASE_BUILD
 -D openfl-flash
 -D fdb
 -D web
@@ -31,5 +29,5 @@
 -swf-lib export/flash/obj/assets.swf
 -swf-version 11.8
 -swf export/flash/bin/TestCode.swf
--swf-header 640:480:60:000000
+-swf-header 480:640:60:000000
 -cp export/flash/haxe

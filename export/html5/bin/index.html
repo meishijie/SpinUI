@@ -12,6 +12,7 @@
 	
 	
 	<script type="text/javascript" src="./lib/soundjs.min.js"></script>
+	<script type="text/javascript" src="./lib/soundjs.min.js"></script>
 	<script type="text/javascript" src="./TestCode.js"></script>
 	
 	<script>
@@ -24,7 +25,7 @@
 	
 	<style>
 		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: black; }
-		#openfl-content { margin: 0 auto; width: 640px; height: 480px; }
+		#openfl-content { margin: 0 auto; width: 480px; height: 640px; }
 		
 		@font-face {
 			font-family: 'Nokia Cellphone FC Small';
@@ -44,6 +45,24 @@
 			font-weight: normal;
 			font-style: normal;
 		}
+		@font-face {
+			font-family: 'Oxygen Bold';
+			src: url('fonts/Oxygen-Bold.eot');
+			src: url('fonts/Oxygen-Bold.eot?#iefix') format('embedded-opentype'),
+			url('fonts/Oxygen-Bold.svg#my-font-family') format('svg'),
+			url('fonts/Oxygen-Bold.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Oxygen Regular';
+			src: url('fonts/Oxygen.eot');
+			src: url('fonts/Oxygen.eot?#iefix') format('embedded-opentype'),
+			url('fonts/Oxygen.svg#my-font-family') format('svg'),
+			url('fonts/Oxygen.ttf') format('truetype');
+			font-weight: normal;
+			font-style: normal;
+		}
 	</style>
 	
 </head>
@@ -54,7 +73,7 @@
 	<div id="openfl-content"></div>
 	
 	<script type="text/javascript">
-		lime.embed ("openfl-content", 640, 480, "000000");
+		lime.embed ("openfl-content", 480, 640, "000000");
 	</script>
 	
 </body>

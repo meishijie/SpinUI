@@ -62,8 +62,88 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
 		Font.registerFont (__ASSET__flixel_fonts_nokiafc22_ttf);
 		Font.registerFont (__ASSET__flixel_fonts_monsterrat_ttf);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Font.registerFont (__ASSET__fonts_oxygen_bold_ttf);
+		
+		
+		
+		
+		Font.registerFont (__ASSET__fonts_oxygen_ttf);
 		
 		
 		
@@ -71,6 +151,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -93,6 +176,83 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("flixel/images/logo/default.png", __ASSET__flixel_images_logo_default_png);
 		type.set ("flixel/images/logo/default.png", AssetType.IMAGE);
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		
 		
 		if (useManifest) {
@@ -507,6 +667,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+@:keep class __ASSET__fonts_oxygen_bold_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "fonts/Oxygen-Bold.ttf"; fontName = "Oxygen Bold"; }}
+@:keep class __ASSET__fonts_oxygen_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "fonts/Oxygen.ttf"; fontName = "Oxygen Regular"; }}
 
 
 #else
@@ -514,6 +676,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 class __ASSET__flixel_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "flixel/fonts/nokiafc22.ttf"; fontName = "Nokia Cellphone FC Small";  }}
 class __ASSET__flixel_fonts_monsterrat_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "flixel/fonts/monsterrat.ttf"; fontName = "Monsterrat";  }}
+class __ASSET__fonts_oxygen_bold_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "fonts/Oxygen-Bold.ttf"; fontName = "Oxygen Bold";  }}
+class __ASSET__fonts_oxygen_ttf extends openfl.text.Font { public function new () { super (); __fontPath = "fonts/Oxygen.ttf"; fontName = "Oxygen Regular";  }}
 
 
 #end
@@ -582,8 +746,88 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		
 		
+		
+		
+		
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_nokiafc22_ttf);
 		openfl.text.Font.registerFont (__ASSET__OPENFL__flixel_fonts_monsterrat_ttf);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_oxygen_bold_ttf);
+		
+		
+		
+		
+		openfl.text.Font.registerFont (__ASSET__OPENFL__fonts_oxygen_ttf);
 		
 		
 		
@@ -593,8 +837,14 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		path.set ("assets/data/data-goes-here.txt", "assets/data/data-goes-here.txt");
 		type.set ("assets/data/data-goes-here.txt", AssetType.TEXT);
+		path.set ("assets/images/door.png", "assets/images/door.png");
+		type.set ("assets/images/door.png", AssetType.IMAGE);
 		path.set ("assets/images/images-go-here.txt", "assets/images/images-go-here.txt");
 		type.set ("assets/images/images-go-here.txt", AssetType.TEXT);
+		path.set ("assets/images/main.png", "assets/images/main.png");
+		type.set ("assets/images/main.png", AssetType.IMAGE);
+		path.set ("assets/layouts.xml", "assets/layouts.xml");
+		type.set ("assets/layouts.xml", AssetType.TEXT);
 		path.set ("assets/music/music-goes-here.txt", "assets/music/music-goes-here.txt");
 		type.set ("assets/music/music-goes-here.txt", AssetType.TEXT);
 		path.set ("assets/sounds/sounds-go-here.txt", "assets/sounds/sounds-go-here.txt");
@@ -611,6 +861,160 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("flixel/images/ui/button.png", AssetType.IMAGE);
 		className.set ("flixel/images/logo/default.png", __ASSET__flixel_images_logo_default_png);
 		type.set ("flixel/images/logo/default.png", AssetType.IMAGE);
+		path.set ("styles/default/circle.png", "styles/default/circle.png");
+		type.set ("styles/default/circle.png", AssetType.IMAGE);
+		path.set ("styles/default/collapse.png", "styles/default/collapse.png");
+		type.set ("styles/default/collapse.png", AssetType.IMAGE);
+		path.set ("styles/default/cross.png", "styles/default/cross.png");
+		type.set ("styles/default/cross.png", AssetType.IMAGE);
+		path.set ("styles/default/expand.png", "styles/default/expand.png");
+		type.set ("styles/default/expand.png", AssetType.IMAGE);
+		path.set ("styles/default/up_down.png", "styles/default/up_down.png");
+		type.set ("styles/default/up_down.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_down.png", "styles/gradient/arrow_down.png");
+		type.set ("styles/gradient/arrow_down.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_down_dark.png", "styles/gradient/arrow_down_dark.png");
+		type.set ("styles/gradient/arrow_down_dark.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_down_disabled.png", "styles/gradient/arrow_down_disabled.png");
+		type.set ("styles/gradient/arrow_down_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_left.png", "styles/gradient/arrow_left.png");
+		type.set ("styles/gradient/arrow_left.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_left_disabled.png", "styles/gradient/arrow_left_disabled.png");
+		type.set ("styles/gradient/arrow_left_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_right.png", "styles/gradient/arrow_right.png");
+		type.set ("styles/gradient/arrow_right.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_right2.png", "styles/gradient/arrow_right2.png");
+		type.set ("styles/gradient/arrow_right2.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_right_dark.png", "styles/gradient/arrow_right_dark.png");
+		type.set ("styles/gradient/arrow_right_dark.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_right_disabled.png", "styles/gradient/arrow_right_disabled.png");
+		type.set ("styles/gradient/arrow_right_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_up.png", "styles/gradient/arrow_up.png");
+		type.set ("styles/gradient/arrow_up.png", AssetType.IMAGE);
+		path.set ("styles/gradient/arrow_up_disabled.png", "styles/gradient/arrow_up_disabled.png");
+		type.set ("styles/gradient/arrow_up_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/circle_dark.png", "styles/gradient/circle_dark.png");
+		type.set ("styles/gradient/circle_dark.png", AssetType.IMAGE);
+		path.set ("styles/gradient/cross_dark.png", "styles/gradient/cross_dark.png");
+		type.set ("styles/gradient/cross_dark.png", AssetType.IMAGE);
+		path.set ("styles/gradient/cross_dark_disabled.png", "styles/gradient/cross_dark_disabled.png");
+		type.set ("styles/gradient/cross_dark_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/cross_light_small.png", "styles/gradient/cross_light_small.png");
+		type.set ("styles/gradient/cross_light_small.png", AssetType.IMAGE);
+		path.set ("styles/gradient/gradient.css", "styles/gradient/gradient.css");
+		type.set ("styles/gradient/gradient.css", AssetType.TEXT);
+		path.set ("styles/gradient/gradient.min.css", "styles/gradient/gradient.min.css");
+		type.set ("styles/gradient/gradient.min.css", AssetType.TEXT);
+		path.set ("styles/gradient/gradient_mobile.css", "styles/gradient/gradient_mobile.css");
+		type.set ("styles/gradient/gradient_mobile.css", AssetType.TEXT);
+		path.set ("styles/gradient/gradient_mobile.min.css", "styles/gradient/gradient_mobile.min.css");
+		type.set ("styles/gradient/gradient_mobile.min.css", AssetType.TEXT);
+		path.set ("styles/gradient/gripper_horizontal.png", "styles/gradient/gripper_horizontal.png");
+		type.set ("styles/gradient/gripper_horizontal.png", AssetType.IMAGE);
+		path.set ("styles/gradient/gripper_horizontal_disabled.png", "styles/gradient/gripper_horizontal_disabled.png");
+		type.set ("styles/gradient/gripper_horizontal_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/gripper_vertical.png", "styles/gradient/gripper_vertical.png");
+		type.set ("styles/gradient/gripper_vertical.png", AssetType.IMAGE);
+		path.set ("styles/gradient/gripper_vertical_disabled.png", "styles/gradient/gripper_vertical_disabled.png");
+		type.set ("styles/gradient/gripper_vertical_disabled.png", AssetType.IMAGE);
+		path.set ("styles/gradient/hsplitter_gripper.png", "styles/gradient/hsplitter_gripper.png");
+		type.set ("styles/gradient/hsplitter_gripper.png", AssetType.IMAGE);
+		path.set ("styles/gradient/vsplitter_gripper.png", "styles/gradient/vsplitter_gripper.png");
+		type.set ("styles/gradient/vsplitter_gripper.png", AssetType.IMAGE);
+		path.set ("styles/windows/accordion.css", "styles/windows/accordion.css");
+		type.set ("styles/windows/accordion.css", AssetType.TEXT);
+		path.set ("styles/windows/accordion.min.css", "styles/windows/accordion.min.css");
+		type.set ("styles/windows/accordion.min.css", AssetType.TEXT);
+		path.set ("styles/windows/button.png", "styles/windows/button.png");
+		type.set ("styles/windows/button.png", AssetType.IMAGE);
+		path.set ("styles/windows/buttons.css", "styles/windows/buttons.css");
+		type.set ("styles/windows/buttons.css", AssetType.TEXT);
+		path.set ("styles/windows/buttons.min.css", "styles/windows/buttons.min.css");
+		type.set ("styles/windows/buttons.min.css", AssetType.TEXT);
+		path.set ("styles/windows/calendar.css", "styles/windows/calendar.css");
+		type.set ("styles/windows/calendar.css", AssetType.TEXT);
+		path.set ("styles/windows/checkbox.png", "styles/windows/checkbox.png");
+		type.set ("styles/windows/checkbox.png", AssetType.IMAGE);
+		path.set ("styles/windows/container.png", "styles/windows/container.png");
+		type.set ("styles/windows/container.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/down_arrow.png", "styles/windows/glyphs/down_arrow.png");
+		type.set ("styles/windows/glyphs/down_arrow.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/hscroll_thumb_gripper_down.png", "styles/windows/glyphs/hscroll_thumb_gripper_down.png");
+		type.set ("styles/windows/glyphs/hscroll_thumb_gripper_down.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/hscroll_thumb_gripper_over.png", "styles/windows/glyphs/hscroll_thumb_gripper_over.png");
+		type.set ("styles/windows/glyphs/hscroll_thumb_gripper_over.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/hscroll_thumb_gripper_up.png", "styles/windows/glyphs/hscroll_thumb_gripper_up.png");
+		type.set ("styles/windows/glyphs/hscroll_thumb_gripper_up.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/left_arrow.png", "styles/windows/glyphs/left_arrow.png");
+		type.set ("styles/windows/glyphs/left_arrow.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/right_arrow.png", "styles/windows/glyphs/right_arrow.png");
+		type.set ("styles/windows/glyphs/right_arrow.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/up_arrow.png", "styles/windows/glyphs/up_arrow.png");
+		type.set ("styles/windows/glyphs/up_arrow.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/vscroll_thumb_gripper_down.png", "styles/windows/glyphs/vscroll_thumb_gripper_down.png");
+		type.set ("styles/windows/glyphs/vscroll_thumb_gripper_down.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/vscroll_thumb_gripper_over.png", "styles/windows/glyphs/vscroll_thumb_gripper_over.png");
+		type.set ("styles/windows/glyphs/vscroll_thumb_gripper_over.png", AssetType.IMAGE);
+		path.set ("styles/windows/glyphs/vscroll_thumb_gripper_up.png", "styles/windows/glyphs/vscroll_thumb_gripper_up.png");
+		type.set ("styles/windows/glyphs/vscroll_thumb_gripper_up.png", AssetType.IMAGE);
+		path.set ("styles/windows/hprogress.png", "styles/windows/hprogress.png");
+		type.set ("styles/windows/hprogress.png", AssetType.IMAGE);
+		path.set ("styles/windows/hscroll.png", "styles/windows/hscroll.png");
+		type.set ("styles/windows/hscroll.png", AssetType.IMAGE);
+		path.set ("styles/windows/listview.css", "styles/windows/listview.css");
+		type.set ("styles/windows/listview.css", AssetType.TEXT);
+		path.set ("styles/windows/listview.min.css", "styles/windows/listview.min.css");
+		type.set ("styles/windows/listview.min.css", AssetType.TEXT);
+		path.set ("styles/windows/listview.png", "styles/windows/listview.png");
+		type.set ("styles/windows/listview.png", AssetType.IMAGE);
+		path.set ("styles/windows/menus.css", "styles/windows/menus.css");
+		type.set ("styles/windows/menus.css", AssetType.TEXT);
+		path.set ("styles/windows/optionbox.png", "styles/windows/optionbox.png");
+		type.set ("styles/windows/optionbox.png", AssetType.IMAGE);
+		path.set ("styles/windows/popup.png", "styles/windows/popup.png");
+		type.set ("styles/windows/popup.png", AssetType.IMAGE);
+		path.set ("styles/windows/popups.css", "styles/windows/popups.css");
+		type.set ("styles/windows/popups.css", AssetType.TEXT);
+		path.set ("styles/windows/rtf.css", "styles/windows/rtf.css");
+		type.set ("styles/windows/rtf.css", AssetType.TEXT);
+		path.set ("styles/windows/scrolls.css", "styles/windows/scrolls.css");
+		type.set ("styles/windows/scrolls.css", AssetType.TEXT);
+		path.set ("styles/windows/scrolls.min.css", "styles/windows/scrolls.min.css");
+		type.set ("styles/windows/scrolls.min.css", AssetType.TEXT);
+		path.set ("styles/windows/sliders.css", "styles/windows/sliders.css");
+		type.set ("styles/windows/sliders.css", AssetType.TEXT);
+		path.set ("styles/windows/tab.png", "styles/windows/tab.png");
+		type.set ("styles/windows/tab.png", AssetType.IMAGE);
+		path.set ("styles/windows/tabs.css", "styles/windows/tabs.css");
+		type.set ("styles/windows/tabs.css", AssetType.TEXT);
+		path.set ("styles/windows/textinput.png", "styles/windows/textinput.png");
+		type.set ("styles/windows/textinput.png", AssetType.IMAGE);
+		path.set ("styles/windows/vprogress.png", "styles/windows/vprogress.png");
+		type.set ("styles/windows/vprogress.png", AssetType.IMAGE);
+		path.set ("styles/windows/vscroll.png", "styles/windows/vscroll.png");
+		type.set ("styles/windows/vscroll.png", AssetType.IMAGE);
+		path.set ("styles/windows/windows.css", "styles/windows/windows.css");
+		type.set ("styles/windows/windows.css", AssetType.TEXT);
+		path.set ("fonts/Oxygen-Bold.eot", "fonts/Oxygen-Bold.eot");
+		type.set ("fonts/Oxygen-Bold.eot", AssetType.BINARY);
+		path.set ("fonts/Oxygen-Bold.svg", "fonts/Oxygen-Bold.svg");
+		type.set ("fonts/Oxygen-Bold.svg", AssetType.TEXT);
+		path.set ("fonts/Oxygen-Bold.ttf", "fonts/Oxygen-Bold.ttf");
+		type.set ("fonts/Oxygen-Bold.ttf", AssetType.FONT);
+		path.set ("fonts/Oxygen-Bold.woff", "fonts/Oxygen-Bold.woff");
+		type.set ("fonts/Oxygen-Bold.woff", AssetType.BINARY);
+		path.set ("fonts/Oxygen-Bold.woff2", "fonts/Oxygen-Bold.woff2");
+		type.set ("fonts/Oxygen-Bold.woff2", AssetType.BINARY);
+		path.set ("fonts/Oxygen.eot", "fonts/Oxygen.eot");
+		type.set ("fonts/Oxygen.eot", AssetType.BINARY);
+		path.set ("fonts/Oxygen.svg", "fonts/Oxygen.svg");
+		type.set ("fonts/Oxygen.svg", AssetType.TEXT);
+		path.set ("fonts/Oxygen.ttf", "fonts/Oxygen.ttf");
+		type.set ("fonts/Oxygen.ttf", AssetType.FONT);
+		path.set ("fonts/Oxygen.woff", "fonts/Oxygen.woff");
+		type.set ("fonts/Oxygen.woff", AssetType.BINARY);
+		path.set ("fonts/Oxygen.woff2", "fonts/Oxygen.woff2");
+		type.set ("fonts/Oxygen.woff2", AssetType.BINARY);
 		
 		
 		#elseif html5
@@ -619,7 +1023,16 @@ class DefaultAssetLibrary extends AssetLibrary {
 		id = "assets/data/data-goes-here.txt";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
+		id = "assets/images/door.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
 		id = "assets/images/images-go-here.txt";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "assets/images/main.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "assets/layouts.xml";
 		path.set (id, id);
 		type.set (id, AssetType.TEXT);
 		id = "assets/music/music-goes-here.txt";
@@ -652,6 +1065,237 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
+		id = "styles/default/circle.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/default/collapse.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/default/cross.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/default/expand.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/default/up_down.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_down.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_down_dark.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_down_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_left.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_left_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_right.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_right2.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_right_dark.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_right_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_up.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/arrow_up_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/circle_dark.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/cross_dark.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/cross_dark_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/cross_light_small.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/gradient.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/gradient/gradient.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/gradient/gradient_mobile.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/gradient/gradient_mobile.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/gradient/gripper_horizontal.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/gripper_horizontal_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/gripper_vertical.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/gripper_vertical_disabled.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/hsplitter_gripper.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/gradient/vsplitter_gripper.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/accordion.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/accordion.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/button.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/buttons.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/buttons.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/calendar.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/checkbox.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/container.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/down_arrow.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/hscroll_thumb_gripper_down.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/hscroll_thumb_gripper_over.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/hscroll_thumb_gripper_up.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/left_arrow.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/right_arrow.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/up_arrow.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/vscroll_thumb_gripper_down.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/vscroll_thumb_gripper_over.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/glyphs/vscroll_thumb_gripper_up.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/hprogress.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/hscroll.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/listview.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/listview.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/listview.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/menus.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/optionbox.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/popup.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/popups.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/rtf.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/scrolls.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/scrolls.min.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/sliders.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/tab.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/tabs.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "styles/windows/textinput.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/vprogress.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/vscroll.png";
+		path.set (id, id);
+		type.set (id, AssetType.IMAGE);
+		id = "styles/windows/windows.css";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "fonts/Oxygen-Bold.eot";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
+		id = "fonts/Oxygen-Bold.svg";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "fonts/Oxygen-Bold.ttf";
+		path.set (id, id);
+		type.set (id, AssetType.FONT);
+		id = "fonts/Oxygen-Bold.woff";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
+		id = "fonts/Oxygen-Bold.woff2";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
+		id = "fonts/Oxygen.eot";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
+		id = "fonts/Oxygen.svg";
+		path.set (id, id);
+		type.set (id, AssetType.TEXT);
+		id = "fonts/Oxygen.ttf";
+		path.set (id, id);
+		type.set (id, AssetType.FONT);
+		id = "fonts/Oxygen.woff";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
+		id = "fonts/Oxygen.woff2";
+		path.set (id, id);
+		type.set (id, AssetType.BINARY);
 		
 		
 		var assetsPrefix = null;
@@ -669,6 +1313,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 		#if (windows || mac || linux)
 		
 		var useManifest = false;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
 		useManifest = true;
 		useManifest = true;
 		useManifest = true;
@@ -691,6 +1338,87 @@ class DefaultAssetLibrary extends AssetLibrary {
 		
 		className.set ("flixel/images/logo/default.png", __ASSET__flixel_images_logo_default_png);
 		type.set ("flixel/images/logo/default.png", AssetType.IMAGE);
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("fonts/Oxygen-Bold.ttf", __ASSET__fonts_oxygen_bold_ttf);
+		type.set ("fonts/Oxygen-Bold.ttf", AssetType.FONT);
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		useManifest = true;
+		
+		className.set ("fonts/Oxygen.ttf", __ASSET__fonts_oxygen_ttf);
+		type.set ("fonts/Oxygen.ttf", AssetType.FONT);
+		useManifest = true;
+		useManifest = true;
 		
 		
 		if (useManifest) {
@@ -1413,6 +2141,9 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_beep_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_sounds_flixel_ogg extends null { }
 @:keep @:bind #if display private #end class __ASSET__flixel_fonts_nokiafc22_ttf extends null { }
@@ -1421,7 +2152,87 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__flixel_images_logo_default_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #elseif html5
+
+
+
 
 
 
@@ -1435,8 +2246,87 @@ class DefaultAssetLibrary extends AssetLibrary {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@:keep #if display private #end class __ASSET__fonts_oxygen_bold_ttf extends lime.text.Font { public function new () { super (); name = "Oxygen Bold"; } } 
+
+
+
+
+@:keep #if display private #end class __ASSET__fonts_oxygen_ttf extends lime.text.Font { public function new () { super (); name = "Oxygen Regular"; } } 
+
+
+
+
 #else
 
+@:keep #if display private #end class __ASSET__fonts_oxygen_bold_ttf extends lime.text.Font { public function new () { __fontPath = #if ios "assets/" + #end "fonts/Oxygen-Bold.ttf"; name = "Oxygen Bold"; super (); }}
+@:keep #if display private #end class __ASSET__fonts_oxygen_ttf extends lime.text.Font { public function new () { __fontPath = #if ios "assets/" + #end "fonts/Oxygen.ttf"; name = "Oxygen Regular"; super (); }}
 
 
 #if (windows || mac || linux || cpp)
@@ -1457,6 +2347,8 @@ class DefaultAssetLibrary extends AssetLibrary {
 #if (openfl && !flash)
 @:keep #if display private #end class __ASSET__OPENFL__flixel_fonts_nokiafc22_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__flixel_fonts_nokiafc22_ttf (); src = font.src; name = font.name; super (); }}
 @:keep #if display private #end class __ASSET__OPENFL__flixel_fonts_monsterrat_ttf extends openfl.text.Font { public function new () { var font = new __ASSET__flixel_fonts_monsterrat_ttf (); src = font.src; name = font.name; super (); }}
+@:keep #if display private #end class __ASSET__OPENFL__fonts_oxygen_bold_ttf extends openfl.text.Font { public function new () { __fontPath = #if ios "assets/" + #end "fonts/Oxygen-Bold.ttf"; name = "Oxygen Bold"; super (); }}
+@:keep #if display private #end class __ASSET__OPENFL__fonts_oxygen_ttf extends openfl.text.Font { public function new () { __fontPath = #if ios "assets/" + #end "fonts/Oxygen.ttf"; name = "Oxygen Regular"; super (); }}
 
 #end
 

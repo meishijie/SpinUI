@@ -42,6 +42,10 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
+		urls.push ("assets/images/main.png");
+		types.push (lime.Assets.AssetType.IMAGE);
+		
+		
 		urls.push ("assets/layouts.xml");
 		types.push (lime.Assets.AssetType.TEXT);
 		
@@ -447,7 +451,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "44",
+			build: "250",
 			company: "",
 			file: "TestCode",
 			fps: 60,
@@ -465,13 +469,13 @@ class ApplicationMain {
 					display: 0,
 					fullscreen: false,
 					hardware: true,
-					height: 480,
+					height: 640,
 					parameters: "{}",
 					resizable: true,
 					stencilBuffer: true,
 					title: "TestCode",
 					vsync: true,
-					width: 640,
+					width: 480,
 					x: null,
 					y: null
 				},
@@ -489,7 +493,7 @@ class ApplicationMain {
 		
 		#if (js && html5)
 		#if (munit || utest)
-		openfl.Lib.embed (null, 640, 480, "000000");
+		openfl.Lib.embed (null, 480, 640, "000000");
 		#end
 		#else
 		create ();
